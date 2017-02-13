@@ -1,6 +1,6 @@
 <?php
 //连接数据库
-$mysqli =  mysqli_connect('localhost', 'root', '', 'rmk1');
+$mysqli =  mysqli_connect('localhost', 'root', 'rmk18835113134', 'rmk1');
 //设置编码
 mysqli_query($mysqli,"SET NAMES utf8");
 if (!$mysqli){
